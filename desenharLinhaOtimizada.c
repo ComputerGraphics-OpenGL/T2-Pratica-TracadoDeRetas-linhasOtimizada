@@ -60,8 +60,8 @@ void inicializar(void) {
 int main(int argc, char** argv) {
     glutInit(&argc, argv); // Inicializa o GLUT
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB); // Define o modo de display
-    glutInitWindowSize(250, 250); // Define o tamanho da janela
-    glutInitWindowPosition(100, 100); // Define a posição da janela
+    glutInitWindowSize(600, 600); // Define o tamanho da janela
+    glutInitWindowPosition(50, 50); // Define a posição da janela
     glutCreateWindow("Linha otimizada"); // Cria a janela com um título
     inicializar(); // Chama a função de inicialização
     glutDisplayFunc(desenhar); // Define a função de desenho
