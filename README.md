@@ -20,7 +20,7 @@ O problema que o programa resolve é o de desenhar uma linha em uma janela usand
 
 ```shell
 gcc -c desenharLinhaOtimizada.c -lGL -lGLU -lglut -lm
-cc -o desenharLinhaOtimizada desenharLinhaOtimizada.c -lGL -lGLU -lglut -lm
+gcc -o desenharLinhaOtimizada desenharLinhaOtimizada.c -lGL -lGLU -lglut -lm
 ./desenharLinhaOtimizada
 ```
 
