@@ -1,9 +1,11 @@
 #include <GL/glut.h>
+
 void init (void) {
     glClearColor (1.0,1.0,1.0,0.0);
     glMatrixMode (GL_PROJECTION);
     gluOrtho2D (0.0, 200.0, 0.0, 150.0);
 }
+
 //Desenho de segmentos de reta com inclinacao entre 0 e 45 graus
 void lineBres (GLint x0, GLint y0, GLint xEnd, GLint yEnd) {
     GLint dx = xEnd -x0, dy = yEnd -y0;
@@ -46,7 +48,7 @@ void displayFcn (void) {
     glColor3f (0.0,0.0,1.0); //estalebece a cor de preenchimento inicial como azul
     lineBres (10, 10, 70, 70);
     glFlush();
-} 
+}
 
 int main (int argc, char** argv) {
     glutInit(&argc, argv);
