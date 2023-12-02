@@ -1,3 +1,4 @@
+# Grupo 1 - CG
 ## Linha otimizada
 Este é um programa em C que usa a biblioteca OpenGL para desenhar uma linha otimizada em uma janela. O programa usa o algoritmo do ponto médio, que é uma forma de traçar segmentos de reta em uma grade de pixels, usando apenas operações com números inteiros. Esse algoritmo evita o uso de divisões e multiplicações, que são mais custosas do que somas e subtrações, e reduz o erro de arredondamento. O algoritmo do ponto médio funciona para qualquer inclinação da reta, mas requer algumas adaptações dependendo do caso.
 
