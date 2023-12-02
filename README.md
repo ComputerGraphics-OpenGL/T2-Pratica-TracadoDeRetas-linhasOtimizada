@@ -1,4 +1,14 @@
 # Grupo 1 - CG
+#### Universidade Federal de Goiás - Instituto de Informática
+#### Disciplina: Computação Gráfica
+#### Prof.ª: DELLER JAMES FERREIRA
+#### Alunos: 	Matheus Lázaro Honório da Silva - 201801523
+#### Gabriel Crispim de Siqueira - 201801496
+#### Guilherme Araújo França - 202003569
+#### Thais Gonçalves da Silva - 202003617
+________________________________________________________________________________________
+
+
 ## Linha otimizada
 Este é um programa em C que usa a biblioteca OpenGL para desenhar uma linha otimizada em uma janela. O programa usa o algoritmo do ponto médio, que é uma forma de traçar segmentos de reta em uma grade de pixels, usando apenas operações com números inteiros. Esse algoritmo evita o uso de divisões e multiplicações, que são mais custosas do que somas e subtrações, e reduz o erro de arredondamento. O algoritmo do ponto médio funciona para qualquer inclinação da reta, mas requer algumas adaptações dependendo do caso.
 
